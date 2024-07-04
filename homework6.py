@@ -11,7 +11,6 @@ print(my_dicts)
 my_set = {2, 2, False, 2, 'rar',
           False, 2, 'rar'}
 print(my_set)
-my_set.add(9)
-my_set.add('huh')
+my_set.add(9), my_set.add('huh')
 my_set.discard(False)
 print(my_set)
